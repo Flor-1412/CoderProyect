@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Ropa para Niños</title>
+    <link rel="stylesheet" href="../Estilos/estilos.css">
+    <style>
+        body {
+            background-color: #ffe4e1;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #ffe4e1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: blueviolet;
+            margin: 0;
+            padding: 0;
+        }
+
+        header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section#id2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .producto {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .producto h3 {
+            color: blueviolet;
+        }
+
+        .producto p {
+            color: blueviolet;
+            margin-bottom: 10px;
+        }
+
+        .producto button {
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .producto button:hover {
+            background-color: #7a3d82;
+        }
+
+        footer {
+            background-color: blanchedalmond;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            padding: 0;
+        }
+
+        footer h3 {
+            color: blueviolet;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Productos - Ropa para Niños</h1>
+        <ul>
+            <li><a href="../Index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="iniciodesesion.html">Inicio de Sesión</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="cerrarsesion.html">Cerrar Sesión</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="id2">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <h3>Campera nena</h3>
+                <img src="../Multimedia/child-8307077_640.jpg" alt="" class="clase1">
+                <p>Precio: $2000</p>
+                <button>Agregar al Carrito</button>
+            </div>
+
+            <div class="producto">
+                <h3>Camisa nene</h3>
+                <img src="../Multimedia/bebe-1399694_640.jpg" alt="" class="clase2">
+                <p>Precio: $2000</p>
+                <button>Agregar al Carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contacto: info@ropaparaninos.com</p>
+        <p>Síguenos en redes sociales:</p>
+        <h3>Ropa de bebes - @ropadebebes</h3>
+    </footer>
+
+</body>
+</html>
